@@ -5,3 +5,5 @@
 //   - You can expect a valid string to be provided for each test case.
 module.exports = (str) => {
 }
+
+//loop through to see if sentence is greater than 5, if so split the sentence into an array, reversestring the array, then join back to sentence

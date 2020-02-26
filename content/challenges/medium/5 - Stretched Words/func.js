@@ -4,3 +4,5 @@
 
 module.exports = (word) => {
 }
+
+//store the first letter, loop until you get the next letter, push that letter to the first store 

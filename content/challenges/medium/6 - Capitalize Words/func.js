@@ -4,3 +4,5 @@
 //   - You can expect a valid string for each test case.
 module.exports = (str) => {
 }
+
+//split into array, upper case first index, join

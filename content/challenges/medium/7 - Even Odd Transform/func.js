@@ -4,3 +4,5 @@
 //   2. Subtracts two (-2) to each even integer.
 module.exports = (arr, n) => {
 }
+
+//loop, if odd add, even odd suntrac

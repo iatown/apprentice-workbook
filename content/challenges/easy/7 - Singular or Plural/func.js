@@ -3,6 +3,12 @@
 // Remember that return true (boolean) is not the same as return "true" (string).
 // This is an oversimplification of the English language. We are ignoring edge cases like "goose" and "geese", "fungus" and "fungi", etc.
 
-module.exports = (word) => {
-
+module.exports = word => {
+  let spl = word.split("");
+  let s = spl.pop();
+  if (s === "s") {
+    return true;
+  } else {
+    return false;
+  }
 };
