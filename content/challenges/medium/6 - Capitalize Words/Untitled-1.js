@@ -1,10 +1,6 @@
-// Create a function that takes a string as an argument and converts the first character of each word to uppercase. 
-// Return the newly formatted string.
-// Notes: 
-//   - You can expect a valid string for each test case.
-module.exports = (str) => {
-
-    let first = str[0];
+let log = console.log;
+firstWord = str => {
+  let first = str[0];
   let capital = first.toUpperCase();
   let sentence = capital;
   let space = " ";
@@ -26,7 +22,7 @@ module.exports = (str) => {
     } else {
       sentence += str[i];
     }
-  }return sentence
-}
+  }
+};
 
-//split into array, upper case first index, join
+firstWord("PIZZA PIZZA PIZZA");
